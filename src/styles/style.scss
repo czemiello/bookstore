@@ -1,0 +1,15 @@
+.BookList{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    .custom-image img {
+        display: block;
+    }
+    .custom-card {
+      padding: 10px 16px;
+    }
+    .custom-card p {
+      color: #999;
+    }
+}
