@@ -12,7 +12,11 @@ export default class Login extends Component {
           width:"320px",
           padding:"10px",
           margin:"auto"
-      }}>        
+      }}>
+        <h1 style={{
+            textAlign:"center",
+            marginBottom:"20px"
+        }}>Zaloguj się</h1>
         <Input style={inputStyle} type="email" placeholder="email"/>
         <Input style={inputStyle} type="password" placeholder="hasło"/>
         <div style={{textAlign:"right"}} >

@@ -1,7 +1,8 @@
 import React, { PropTypes } from 'react'
 export default class Book extends React.Component {
     render () {
-        const { title, id } = this.props;
+        const { title, id, kategorie, tytul } = this.props;
+
         return (
             <div className="Book">
                 <div className="image">

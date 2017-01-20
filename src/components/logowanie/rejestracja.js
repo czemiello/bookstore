@@ -11,12 +11,12 @@ export default class Rejestracja extends Component {
           width:"320px",
           padding:"10px",
           margin:"auto"
-      }}>        
+      }}>
         <h1 style={{
             textAlign:"center",
             marginBottom:"20px"
         }}>Zarejestruj się</h1>
-        <Input style={inputStyle} type="email" placeholder="email"/>
+        <Input style={inputStyle} type="email" placeholder="username"/>
         <Input style={inputStyle} type="password" placeholder="hasło"/>
         <Input style={inputStyle} type="password" placeholder="powtórz hasło"/>
         <Input style={inputStyle} type="text" placeholder="imię"/>

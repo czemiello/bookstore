@@ -1,2 +1,2 @@
 **Wpisz**. `npm run setup`
-**Następnie**. `npm start -s`
+**Następnie**. `npm run start`
